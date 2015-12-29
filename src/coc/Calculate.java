@@ -20,6 +20,7 @@ public class Calculate {
 		int maxBag = totalTime / numCamp;
 		int[][] f = {};
 		f[0][0] = 0;
+		
 		for(int k = 0;k < 3;k++) {
 			Camp camp = camps.get(k);
 		for(int i=0;i<armys.size();i++) {
