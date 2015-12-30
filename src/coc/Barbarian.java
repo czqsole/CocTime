@@ -1,7 +1,13 @@
 package coc;
 
 public class Barbarian extends Army{
-	public int[] time = {10, 20};
-	public int[] costWater = {};
-	public int[] size = {};
+	public int[] times = {0, 10, 20, 30, 40};
+	public int[] costWater = {0, 100, 100, 100, 100};
+	public int[] sizes = {0, 1, 1, 1, 1}; 
+	
+	public Barbarian(String kind, int level) {
+		super(kind, level);
+		this.time = times[level];
+		this.size = sizes[level];
+	}
 }
