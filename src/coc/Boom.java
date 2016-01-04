@@ -1,7 +1,7 @@
 package coc;
 
 public class Boom extends Army {
-	public int[] times = {0, 160, 20, 30, 40};
+	public int[] times = {0, 120, 20, 30, 40};
 	public int[] costWater = {0, 100, 100, 100, 100};
 	public int[] sizes = {0, 1, 1, 1, 1};
 	

@@ -1,10 +1,12 @@
 package coc;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 
 public class Camp {
-	Map<Army, Integer> res = new HashMap<Army, Integer>();
+	Map<String, Integer> res = new HashMap<String, Integer>();
+	LinkedList<Army> ans = new LinkedList<Army>();
 	public int totalTime;
 	int id;
 	int size;
